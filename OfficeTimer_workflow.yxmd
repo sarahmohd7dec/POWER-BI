@@ -1,0 +1,5194 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="18" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\saraabdu\Downloads\Datasets.xlsx|||`OfficeTimer$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Datasets.xlsx
+Query=`OfficeTimer$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Project Name" size="255" source="File: C:\Users\saraabdu\Downloads\Datasets.xlsx|||`OfficeTimer$`" type="V_WString" />
+            <Field name="Employee Name" size="255" source="File: C:\Users\saraabdu\Downloads\Datasets.xlsx|||`OfficeTimer$`" type="V_String" />
+            <Field name="EmployeeManager" size="255" source="File: C:\Users\saraabdu\Downloads\Datasets.xlsx|||`OfficeTimer$`" type="V_String" />
+            <Field name="Department Name" size="255" source="File: C:\Users\saraabdu\Downloads\Datasets.xlsx|||`OfficeTimer$`" type="V_String" />
+            <Field name="Task Name" size="255" source="File: C:\Users\saraabdu\Downloads\Datasets.xlsx|||`OfficeTimer$`" type="V_String" />
+            <Field name="MonthNo" source="File: C:\Users\saraabdu\Downloads\Datasets.xlsx|||`OfficeTimer$`" type="Double" />
+            <Field name="Year" source="File: C:\Users\saraabdu\Downloads\Datasets.xlsx|||`OfficeTimer$`" type="Double" />
+            <Field name="Total Timesheet Hours Total" source="File: C:\Users\saraabdu\Downloads\Datasets.xlsx|||`OfficeTimer$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="390" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="478" />
+          <Fields>
+            <Field name="ProjectName" />
+            <Field name="EmployeeName" />
+            <Field name="EmployeeManager" />
+            <Field name="DepartmentName" />
+            <Field name="TaskName" />
+            <Field name="MonthNo" />
+            <Field name="Year" />
+            <Field name="TotalTimesheetHours" />
+          </Fields>
+          <Data>
+            <r>
+              <c>P - Canada RPA (BBCC24C010)</c>
+              <c>Arun Durisheti</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c>Analysis/Design</c>
+              <c>2</c>
+              <c>2024</c>
+              <c>11</c>
+            </r>
+            <r>
+              <c>P - Bilan Replacement (BBCC23C005)</c>
+              <c>Peace Isaac</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c>Development</c>
+              <c>10</c>
+              <c>2023</c>
+              <c>12</c>
+            </r>
+            <r>
+              <c>P - Bilan Replacement (BBCC23C005)</c>
+              <c>Peace Isaac</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c>Daily Tracking &amp; Updating</c>
+              <c>10</c>
+              <c>2023</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>P - B2B (BRPHC3030LOC1424)</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure]]></c>
+              <c>Daily Tracking &amp; Updating</c>
+              <c>1</c>
+              <c>2024</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>P - B2B (BRPHC3030LOC1424)</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>1</c>
+              <c>2024</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>P - B2B (BRPHC3030LOC1424)</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c>Development</c>
+              <c>2</c>
+              <c>2024</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>P - B2B (BRPHC3030LOC1424)</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c>Development</c>
+              <c>3</c>
+              <c>2024</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>P - B2B (BRPHC3030LOC1424)</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c>Development</c>
+              <c>10</c>
+              <c>2023</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c>P - B2B (BRPHC3030LOC1424)</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[General IT ]]></c>
+              <c>2</c>
+              <c>2024</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c><![CDATA[P - Bilan Replacement (BBCC23C005) ]]></c>
+              <c>Peace Isaac</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>1</c>
+              <c>2024</c>
+              <c>1.5</c>
+            </r>
+            <r>
+              <c><![CDATA[P - Bilan Replacement (BBCC23C005) ]]></c>
+              <c>Peace Isaac</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>2</c>
+              <c>2024</c>
+              <c>2.7</c>
+            </r>
+            <r>
+              <c><![CDATA[P - Bilan Replacement (BBCC23C005) ]]></c>
+              <c>Peace Isaac</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>3</c>
+              <c>2024</c>
+              <c>1.2</c>
+            </r>
+            <r>
+              <c><![CDATA[P - Bilan Replacement (BBCC23C005) ]]></c>
+              <c>Peace Isaac</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c><![CDATA[P - Bilan Replacement (BBCC23C005) ]]></c>
+              <c>Peace Isaac</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c><![CDATA[P - Bilan Replacement (BBCC23C005) ]]></c>
+              <c>Peace Isaac</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>P - BSG RPA 2023 (BBCC22C066)</c>
+              <c>Jad  Bennis</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c>Development</c>
+              <c>10</c>
+              <c>2023</c>
+              <c>15</c>
+            </r>
+            <r>
+              <c>P - BSG RPA 2023 (BBCC22C066)</c>
+              <c>Jad  Bennis</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c>Development</c>
+              <c>11</c>
+              <c>2023</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>P - BSG RPA 2023 (BBCC22C066)</c>
+              <c>Jad  Bennis</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c>Development</c>
+              <c>12</c>
+              <c>2023</c>
+              <c>7.5</c>
+            </r>
+            <r>
+              <c>P - Canada RPA (BBCC24C010)</c>
+              <c>Arun Durisheti</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c>Analysis/Design</c>
+              <c>2</c>
+              <c>2024</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>P - Canada RPA (BBCC24C010)</c>
+              <c>Diane Demirkan Yigiter</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c>Analysis/Design</c>
+              <c>2</c>
+              <c>2024</c>
+              <c>11</c>
+            </r>
+            <r>
+              <c>P - Canada RPA (BBCC24C010)</c>
+              <c>Jad  Bennis</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c>Analysis/Design</c>
+              <c>3</c>
+              <c>2024</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>P - Canada RPA (BBCC24C010)</c>
+              <c>Jad  Bennis</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c>Development</c>
+              <c>2</c>
+              <c>2024</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>P - CMDB Discovery (BBCC23C031)</c>
+              <c>Diane Demirkan Yigiter</c>
+              <c>Jason Franceschina</c>
+              <c>BSG IT Operations - Portfolio</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>1</c>
+              <c>2024</c>
+              <c>13</c>
+            </r>
+            <r>
+              <c>P - CMDB Discovery (BBCC23C031)</c>
+              <c>Diane Demirkan Yigiter</c>
+              <c>Jason Franceschina</c>
+              <c>BSG IT Operations - Portfolio</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>2</c>
+              <c>2024</c>
+              <c>20</c>
+            </r>
+            <r>
+              <c>P - CMDB Discovery (BBCC23C031)</c>
+              <c>Diane Demirkan Yigiter</c>
+              <c>Jason Franceschina</c>
+              <c>BSG IT Operations - Portfolio</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>3</c>
+              <c>2024</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>P - CMDB Discovery (BBCC23C031)</c>
+              <c>Diane Demirkan Yigiter</c>
+              <c>Jason Franceschina</c>
+              <c>BSG IT Operations - Portfolio</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>14</c>
+            </r>
+            <r>
+              <c>P - CMDB Discovery (BBCC23C031)</c>
+              <c>Diane Demirkan Yigiter</c>
+              <c>Jason Franceschina</c>
+              <c>BSG IT Operations - Portfolio</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>15</c>
+            </r>
+            <r>
+              <c>P - CMDB Discovery (BBCC23C031)</c>
+              <c>Diane Demirkan Yigiter</c>
+              <c>Jason Franceschina</c>
+              <c>BSG IT Operations - Portfolio</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>P - CMDB Discovery (BBCC23C031)</c>
+              <c>Jad  Bennis</c>
+              <c>Everad Harrison</c>
+              <c>BSG IT Operations - Portfolio</c>
+              <c>Analysis/Design</c>
+              <c>1</c>
+              <c>2023</c>
+              <c>20</c>
+            </r>
+            <r>
+              <c>P - CMDB Discovery (BBCC23C031)</c>
+              <c>Troy Wilkinson</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c>Analysis/Design</c>
+              <c>10</c>
+              <c>2023</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>P - CMDB Discovery (BBCC23C031)</c>
+              <c>Troy Wilkinson</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c>Analysis/Design</c>
+              <c>11</c>
+              <c>2023</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>P - Cognos BI replacement blueprint (BBCC23C032)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Analysis/Design</c>
+              <c>1</c>
+              <c>2024</c>
+              <c>43.5</c>
+            </r>
+            <r>
+              <c>P - Cognos BI replacement blueprint (BBCC23C032)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Analysis/Design</c>
+              <c>2</c>
+              <c>2024</c>
+              <c>32</c>
+            </r>
+            <r>
+              <c>P - Cognos BI replacement blueprint (BBCC23C032)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Analysis/Design</c>
+              <c>3</c>
+              <c>2024</c>
+              <c>22</c>
+            </r>
+            <r>
+              <c>P - Cognos BI replacement blueprint (BBCC23C032)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Analysis/Design</c>
+              <c>4</c>
+              <c>2024</c>
+              <c>10.5</c>
+            </r>
+            <r>
+              <c>P - Cognos BI replacement blueprint (BBCC23C032)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Analysis/Design</c>
+              <c>10</c>
+              <c>2023</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c>P - Cognos BI replacement blueprint (BBCC23C032)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Analysis/Design</c>
+              <c>11</c>
+              <c>2023</c>
+              <c>9.5</c>
+            </r>
+            <r>
+              <c>P - Cognos BI replacement blueprint (BBCC23C032)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Analysis/Design</c>
+              <c>12</c>
+              <c>2023</c>
+              <c>5.5</c>
+            </r>
+            <r>
+              <c>P - Cognos BI replacement blueprint (BBCC23C032)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>4</c>
+              <c>2024</c>
+              <c>2.5</c>
+            </r>
+            <r>
+              <c>P - Cognos BI replacement blueprint (BBCC23C032)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>2</c>
+              <c>2024</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>P - Cognos BI replacement blueprint (BBCC23C032)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>3</c>
+              <c>2024</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>P - Cognos BI replacement blueprint (BBCC23C032)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>4</c>
+              <c>2024</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>P - Cognos BI replacement blueprint (BBCC23C032)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>16</c>
+            </r>
+            <r>
+              <c>P - Cognos BI replacement blueprint (BBCC23C032)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>22</c>
+            </r>
+            <r>
+              <c>P - Cognos BI replacement blueprint (BBCC23C032)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>13</c>
+            </r>
+            <r>
+              <c>P - Cognos BI replacement blueprint (BBCC23C032)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>POC</c>
+              <c>10</c>
+              <c>2023</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>P - Cognos BI replacement blueprint (BBCC23C032)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>POC</c>
+              <c>11</c>
+              <c>2023</c>
+              <c>11</c>
+            </r>
+            <r>
+              <c>P - Cognos BI replacement blueprint (BBCC23C032)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>POC</c>
+              <c>12</c>
+              <c>2023</c>
+              <c>5.5</c>
+            </r>
+            <r>
+              <c>P - Cognos BI replacement blueprint (BBCC23C032)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Training</c>
+              <c>1</c>
+              <c>2024</c>
+              <c>44.5</c>
+            </r>
+            <r>
+              <c>P - Cognos BI replacement blueprint (BBCC23C032)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Training</c>
+              <c>2</c>
+              <c>2024</c>
+              <c>25</c>
+            </r>
+            <r>
+              <c>P - Cognos BI replacement blueprint (BBCC23C032)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Training</c>
+              <c>10</c>
+              <c>2023</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>P - Cognos BI replacement blueprint (BBCC23C032)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Vendor Coordination</c>
+              <c>2</c>
+              <c>2024</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>P - Cognos BI replacement blueprint (BBCC23C032)</c>
+              <c>Nihan Catal</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Analysis/Design</c>
+              <c>1</c>
+              <c>2024</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>P - Enable MFA for Guests (BBCC23C034)</c>
+              <c>Diane Demirkan Yigiter</c>
+              <c>Jason Franceschina</c>
+              <c>BSG IT Operations - Portfolio</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>1.5</c>
+            </r>
+            <r>
+              <c>P - Hollywood (Duke)</c>
+              <c>Khaled Alanqar</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>P - IT Disaster Recovery Plan (BBCC23C045)</c>
+              <c>Syed Shah</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>3</c>
+              <c>2024</c>
+              <c>24</c>
+            </r>
+            <r>
+              <c>P - IT Disaster Recovery Plan (BBCC23C045)</c>
+              <c>Syed Shah</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>33</c>
+            </r>
+            <r>
+              <c>P - IT Disaster Recovery Plan (BBCC23C045)</c>
+              <c>Syed Shah</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>33</c>
+            </r>
+            <r>
+              <c>P - IT Disaster Recovery Plan (BBCC23C045)</c>
+              <c>Syed Shah</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>16.5</c>
+            </r>
+            <r>
+              <c>P - Microsoft CoPilot (BBC23C044)</c>
+              <c>Diane Demirkan Yigiter</c>
+              <c>Jason Franceschina</c>
+              <c>BSG IT Operations - Portfolio</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>1</c>
+              <c>2024</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>P - Microsoft CoPilot (BBC23C044)</c>
+              <c>Diane Demirkan Yigiter</c>
+              <c>Jason Franceschina</c>
+              <c>BSG IT Operations - Portfolio</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>2</c>
+              <c>2024</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>P - Microsoft CoPilot (BBC23C044)</c>
+              <c>Diane Demirkan Yigiter</c>
+              <c>Jason Franceschina</c>
+              <c>BSG IT Operations - Portfolio</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>3</c>
+              <c>2024</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>P - Microsoft CoPilot (BBC23C044)</c>
+              <c>Diane Demirkan Yigiter</c>
+              <c>Jason Franceschina</c>
+              <c>BSG IT Operations - Portfolio</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>11</c>
+            </r>
+            <r>
+              <c>P - Microsoft CoPilot (BBC23C044)</c>
+              <c>Diane Demirkan Yigiter</c>
+              <c>Jason Franceschina</c>
+              <c>BSG IT Operations - Portfolio</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>6.5</c>
+            </r>
+            <r>
+              <c>P - Microsoft CoPilot (BBC23C044)</c>
+              <c>Diane Demirkan Yigiter</c>
+              <c>Jason Franceschina</c>
+              <c>BSG IT Operations - Portfolio</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>P - OMS PGADS Upgrade (BBCC22C059)</c>
+              <c>Mario Therien</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>P - OMS PGADS Upgrade (BBCC22C059)</c>
+              <c>Mario Therien</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>P - OMS PGADS Upgrade (BBCC22C059)</c>
+              <c>Mario Therien</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c>QA / UAT</c>
+              <c>11</c>
+              <c>2023</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>P - Oracle Upgrade (BBCC21C010)</c>
+              <c>Peace Isaac</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>9.3</c>
+            </r>
+            <r>
+              <c>P - Oracle Upgrade (BBCC21C010)</c>
+              <c>Peace Isaac</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>6.3</c>
+            </r>
+            <r>
+              <c>P - Oracle Upgrade (BBCC21C010)</c>
+              <c>Peace Isaac</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>1.25</c>
+            </r>
+            <r>
+              <c>P - Reference Data Management (BBCC24C003)</c>
+              <c>Animesh Wadikar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>3</c>
+              <c>2024</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>P - Reference Data Management (BBCC24C003)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Analysis/Design</c>
+              <c>2</c>
+              <c>2024</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c>P - Reference Data Management (BBCC24C003)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Analysis/Design</c>
+              <c>3</c>
+              <c>2024</c>
+              <c>29</c>
+            </r>
+            <r>
+              <c>P - Reference Data Management (BBCC24C003)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Analysis/Design</c>
+              <c>4</c>
+              <c>2024</c>
+              <c>15</c>
+            </r>
+            <r>
+              <c>P - Reference Data Management (BBCC24C003)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>POC</c>
+              <c>2</c>
+              <c>2024</c>
+              <c>14</c>
+            </r>
+            <r>
+              <c>P - Reference Data Management (BBCC24C003)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>POC</c>
+              <c>3</c>
+              <c>2024</c>
+              <c>15</c>
+            </r>
+            <r>
+              <c>P - Reference Data Management (BBCC24C003)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>POC</c>
+              <c>4</c>
+              <c>2024</c>
+              <c>10.5</c>
+            </r>
+            <r>
+              <c>P - Reference Data Management (BBCC24C003)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Training</c>
+              <c>2</c>
+              <c>2024</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c>P - Reference Data Management (BBCC24C003)</c>
+              <c>Ivan Quadros</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Analysis/Design</c>
+              <c>1</c>
+              <c>2024</c>
+              <c>45</c>
+            </r>
+            <r>
+              <c>P - Reference Data Management (BBCC24C003)</c>
+              <c>Ivan Quadros</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Analysis/Design</c>
+              <c>2</c>
+              <c>2024</c>
+              <c>33.75</c>
+            </r>
+            <r>
+              <c>P - Reference Data Management (BBCC24C003)</c>
+              <c>Ivan Quadros</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Analysis/Design</c>
+              <c>3</c>
+              <c>2024</c>
+              <c>26.25</c>
+            </r>
+            <r>
+              <c>P - Reference Data Management (BBCC24C003)</c>
+              <c>Martin Brodeur</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>1</c>
+              <c>2024</c>
+              <c>22.5</c>
+            </r>
+            <r>
+              <c>P - Reference Data Management (BBCC24C003)</c>
+              <c>Martin Brodeur</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>2</c>
+              <c>2024</c>
+              <c>45</c>
+            </r>
+            <r>
+              <c>P - Reference Data Management (BBCC24C003)</c>
+              <c>Martin Brodeur</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>3</c>
+              <c>2024</c>
+              <c>45</c>
+            </r>
+            <r>
+              <c>P - RFP Lumen</c>
+              <c>AJ Singh</c>
+              <c>Wade  Holmes</c>
+              <c>BSG IT Operations</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>3</c>
+              <c>2024</c>
+              <c>7.3</c>
+            </r>
+            <r>
+              <c>P - RFP Lumen</c>
+              <c>Aymen Bahumaid</c>
+              <c>Wade  Holmes</c>
+              <c>BSG IT Operations</c>
+              <c>Analysis/Design</c>
+              <c>3</c>
+              <c>2024</c>
+              <c>14.9</c>
+            </r>
+            <r>
+              <c>P - RFP Lumen</c>
+              <c>Diane Demirkan Yigiter</c>
+              <c>Jason Franceschina</c>
+              <c>BSG IT Operations - Portfolio</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>2</c>
+              <c>2024</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c>P - RFP Lumen</c>
+              <c>Diane Demirkan Yigiter</c>
+              <c>Jason Franceschina</c>
+              <c>BSG IT Operations - Portfolio</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>3</c>
+              <c>2024</c>
+              <c>20</c>
+            </r>
+            <r>
+              <c>P - RFP Lumen</c>
+              <c>Fatima Mazhar</c>
+              <c>Wade  Holmes</c>
+              <c>BSG IT Operations</c>
+              <c>Analysis/Design</c>
+              <c>2</c>
+              <c>2024</c>
+              <c>2.15</c>
+            </r>
+            <r>
+              <c>P - RFP Lumen</c>
+              <c>Fatima Mazhar</c>
+              <c>Wade  Holmes</c>
+              <c>BSG IT Operations</c>
+              <c>Analysis/Design</c>
+              <c>3</c>
+              <c>2024</c>
+              <c>17.6</c>
+            </r>
+            <r>
+              <c>P - RFP Lumen</c>
+              <c>Fatima Mazhar</c>
+              <c>Wade  Holmes</c>
+              <c>BSG IT Operations</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>3</c>
+              <c>2024</c>
+              <c>0.6</c>
+            </r>
+            <r>
+              <c>P - RFP Lumen</c>
+              <c>Hareesh Srikanthan</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>2</c>
+              <c>2024</c>
+              <c>28</c>
+            </r>
+            <r>
+              <c>P - RFP Lumen</c>
+              <c>Hareesh Srikanthan</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>3</c>
+              <c>2024</c>
+              <c>27</c>
+            </r>
+            <r>
+              <c>P - RFP Lumen</c>
+              <c>Hassan Ontabli</c>
+              <c>Wade  Holmes</c>
+              <c>BSG IT Operations</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>3</c>
+              <c>2024</c>
+              <c>7.3</c>
+            </r>
+            <r>
+              <c>P - RFP Lumen</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c>Analysis/Design</c>
+              <c>1</c>
+              <c>2024</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>P - RFP Lumen</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c>Analysis/Design</c>
+              <c>2</c>
+              <c>2024</c>
+              <c>18</c>
+            </r>
+            <r>
+              <c>P - RFP Lumen</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c>Analysis/Design</c>
+              <c>3</c>
+              <c>2024</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>P - RFP Lumen</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>2</c>
+              <c>2024</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>P - RFP Lumen</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c>Development</c>
+              <c>3</c>
+              <c>2024</c>
+              <c>16</c>
+            </r>
+            <r>
+              <c>P - RFP Lumen</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[General IT ]]></c>
+              <c>3</c>
+              <c>2024</c>
+              <c>36</c>
+            </r>
+            <r>
+              <c>P - RFP Lumen</c>
+              <c>Troy Wilkinson</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c>Analysis/Design</c>
+              <c>3</c>
+              <c>2024</c>
+              <c>19.5</c>
+            </r>
+            <r>
+              <c>P - RFP Lumen</c>
+              <c>Wade  Holmes</c>
+              <c>Angela Davis</c>
+              <c>BSG IT Operations</c>
+              <c>Analysis/Design</c>
+              <c>3</c>
+              <c>2024</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>P - RFP Lumen</c>
+              <c>Wade  Holmes</c>
+              <c>Angela Davis</c>
+              <c>BSG IT Operations</c>
+              <c>Development</c>
+              <c>2</c>
+              <c>2024</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>P - RFP Lumen</c>
+              <c>Wade  Holmes</c>
+              <c>Angela Davis</c>
+              <c>BSG IT Operations</c>
+              <c>Development</c>
+              <c>3</c>
+              <c>2024</c>
+              <c>13.5</c>
+            </r>
+            <r>
+              <c>P  RPA - Luminace -Form 556 PDF Automation (BB2022B012)</c>
+              <c>Arun Durisheti</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c>Analysis/Design</c>
+              <c>1</c>
+              <c>2024</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>P -  Infrastructure Core Services (BBCC21R001)</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c>Analysis/Design</c>
+              <c>10</c>
+              <c>2023</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>P -  Infrastructure Core Services (BBCC21R001)</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c>Analysis/Design</c>
+              <c>11</c>
+              <c>2023</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>P -  Infrastructure Core Services (BBCC21R001)</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>P -  Infrastructure Core Services (BBCC21R001)</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c>Development</c>
+              <c>10</c>
+              <c>2023</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>P -  Infrastructure Core Services (BBCC21R001)</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[General IT ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>P -  Infrastructure Core Services (BBCC21R001)</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[General IT ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>P - 41 Core Network Switch Replacement (BBCC23C089)</c>
+              <c>Diane Demirkan Yigiter</c>
+              <c>Jason Franceschina</c>
+              <c>BSG IT Operations - Portfolio</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>1</c>
+              <c>2024</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>P - 41 Core Network Switch Replacement (BBCC23C089)</c>
+              <c>Diane Demirkan Yigiter</c>
+              <c>Jason Franceschina</c>
+              <c>BSG IT Operations - Portfolio</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>P - 41 Core Network Switch Replacement (BBCC23C089)</c>
+              <c>Diane Demirkan Yigiter</c>
+              <c>Jason Franceschina</c>
+              <c>BSG IT Operations - Portfolio</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>P - 41 Core Network Switch Replacement (BBCC23C089)</c>
+              <c>Diane Demirkan Yigiter</c>
+              <c>Jason Franceschina</c>
+              <c>BSG IT Operations - Portfolio</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>P - 41 Core Network Switch Replacement (BBCC23C089)</c>
+              <c>Gary Brown</c>
+              <c>Jason Franceschina</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>P - 41 Core Network Switch Replacement (BBCC23C089)</c>
+              <c>Gary Brown</c>
+              <c>Jason Franceschina</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>P - 41 Core Network Switch Replacement (BBCC23C089)</c>
+              <c>Gary Brown</c>
+              <c>Jason Franceschina</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>P - 41 Core Network Switch Replacement (BBCC23C089)</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c>Analysis/Design</c>
+              <c>10</c>
+              <c>2023</c>
+              <c>38</c>
+            </r>
+            <r>
+              <c>P - 41 Core Network Switch Replacement (BBCC23C089)</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c>Analysis/Design</c>
+              <c>11</c>
+              <c>2023</c>
+              <c>41</c>
+            </r>
+            <r>
+              <c>P - 41 Core Network Switch Replacement (BBCC23C089)</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c>Analysis/Design</c>
+              <c>12</c>
+              <c>2023</c>
+              <c>19</c>
+            </r>
+            <r>
+              <c>P - 41 Core Network Switch Replacement (BBCC23C089)</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>1</c>
+              <c>2024</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>P - 41 Core Network Switch Replacement (BBCC23C089)</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c>Development</c>
+              <c>11</c>
+              <c>2023</c>
+              <c>12</c>
+            </r>
+            <r>
+              <c>P - 41 Core Network Switch Replacement (BBCC23C089)</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[General IT ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>13</c>
+            </r>
+            <r>
+              <c>P - AI exploration</c>
+              <c>Animesh Wadikar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>3</c>
+              <c>2024</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c>P - AI exploration</c>
+              <c>Gary Brown</c>
+              <c>Jason Franceschina</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>3</c>
+              <c>2024</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>P - AI exploration</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>3</c>
+              <c>2024</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>P - AI exploration</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c>Development</c>
+              <c>3</c>
+              <c>2024</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>P - Assess and optimize the TERP Azure (BBCC23C023)</c>
+              <c>Syed Shah</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>1</c>
+              <c>2024</c>
+              <c>27</c>
+            </r>
+            <r>
+              <c>P - Assess and optimize the TERP Azure (BBCC23C023)</c>
+              <c>Syed Shah</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>2</c>
+              <c>2024</c>
+              <c>31.5</c>
+            </r>
+            <r>
+              <c>P - Assess and optimize the TERP Azure (BBCC23C023)</c>
+              <c>Syed Shah</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>3</c>
+              <c>2024</c>
+              <c>24</c>
+            </r>
+            <r>
+              <c>P - Assess and optimize the TERP Azure (BBCC23C023)</c>
+              <c>Syed Shah</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>23</c>
+            </r>
+            <r>
+              <c>P - Assess and optimize the TERP Azure (BBCC23C023)</c>
+              <c>Syed Shah</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>22</c>
+            </r>
+            <r>
+              <c>P - Assess and optimize the TERP Azure (BBCC23C023)</c>
+              <c>Syed Shah</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>11</c>
+            </r>
+            <r>
+              <c>P  Azure System Enhancements (BBCC21C016)</c>
+              <c>Nihan Catal</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Analysis/Design</c>
+              <c>1</c>
+              <c>2024</c>
+              <c>8.5</c>
+            </r>
+            <r>
+              <c>P  Azure System Enhancements (BBCC21C016)</c>
+              <c>Nihan Catal</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Analysis/Design</c>
+              <c>2</c>
+              <c>2024</c>
+              <c>53.5</c>
+            </r>
+            <r>
+              <c>P  Azure System Enhancements (BBCC21C016)</c>
+              <c>Nihan Catal</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Analysis/Design</c>
+              <c>3</c>
+              <c>2024</c>
+              <c>14</c>
+            </r>
+            <r>
+              <c>P - B2B (BRPHC3030LOC1424)</c>
+              <c>Diane Demirkan Yigiter</c>
+              <c>Jason Franceschina</c>
+              <c>BSG IT Operations - Portfolio</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>1</c>
+              <c>2024</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>P - B2B (BRPHC3030LOC1424)</c>
+              <c>Diane Demirkan Yigiter</c>
+              <c>Jason Franceschina</c>
+              <c>BSG IT Operations - Portfolio</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>2</c>
+              <c>2024</c>
+              <c>0.5</c>
+            </r>
+            <r>
+              <c>P - B2B (BRPHC3030LOC1424)</c>
+              <c>Diane Demirkan Yigiter</c>
+              <c>Jason Franceschina</c>
+              <c>BSG IT Operations - Portfolio</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>4.5</c>
+            </r>
+            <r>
+              <c>P - B2B (BRPHC3030LOC1424)</c>
+              <c>Diane Demirkan Yigiter</c>
+              <c>Jason Franceschina</c>
+              <c>BSG IT Operations - Portfolio</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>5.5</c>
+            </r>
+            <r>
+              <c>P - B2B (BRPHC3030LOC1424)</c>
+              <c>Diane Demirkan Yigiter</c>
+              <c>Jason Franceschina</c>
+              <c>BSG IT Operations - Portfolio</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>P - B2B (BRPHC3030LOC1424)</c>
+              <c>Gary Brown</c>
+              <c>Jason Franceschina</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>1</c>
+              <c>2024</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c>P - B2B (BRPHC3030LOC1424)</c>
+              <c>Gary Brown</c>
+              <c>Jason Franceschina</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>2</c>
+              <c>2024</c>
+              <c>21</c>
+            </r>
+            <r>
+              <c>P - B2B (BRPHC3030LOC1424)</c>
+              <c>Gary Brown</c>
+              <c>Jason Franceschina</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>3</c>
+              <c>2024</c>
+              <c>20</c>
+            </r>
+            <r>
+              <c>P - B2B (BRPHC3030LOC1424)</c>
+              <c>Gary Brown</c>
+              <c>Jason Franceschina</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>13</c>
+            </r>
+            <r>
+              <c>P - B2B (BRPHC3030LOC1424)</c>
+              <c>Gary Brown</c>
+              <c>Jason Franceschina</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>P - B2B (BRPHC3030LOC1424)</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c>Analysis/Design</c>
+              <c>1</c>
+              <c>2024</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>P - B2B (BRPHC3030LOC1424)</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c>Analysis/Design</c>
+              <c>2</c>
+              <c>2024</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>P - B2B (BRPHC3030LOC1424)</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c>Analysis/Design</c>
+              <c>3</c>
+              <c>2024</c>
+              <c>14</c>
+            </r>
+            <r>
+              <c>P - B2B (BRPHC3030LOC1424)</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c>Analysis/Design</c>
+              <c>10</c>
+              <c>2023</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>P - Hollywood (Duke)</c>
+              <c>Khaled Alanqar</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>P - Hollywood (Duke)</c>
+              <c>Khaled Alanqar</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>P - Hollywood (Duke)</c>
+              <c>Khaled Alanqar</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c>Development</c>
+              <c>12</c>
+              <c>2023</c>
+              <c>36</c>
+            </r>
+            <r>
+              <c>P - Hollywood (Duke)</c>
+              <c>Stacey Towle</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c>Development</c>
+              <c>12</c>
+              <c>2023</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>P - Hollywood (Duke)</c>
+              <c>Stacey Towle</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c>QA / UAT</c>
+              <c>12</c>
+              <c>2023</c>
+              <c>44</c>
+            </r>
+            <r>
+              <c>P - Hollywood (Duke)</c>
+              <c>Stephane Lepage</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>0.5</c>
+            </r>
+            <r>
+              <c>P - Hollywood (Duke)</c>
+              <c>Stephane Lepage</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>31.5</c>
+            </r>
+            <r>
+              <c>P - Hollywood (Duke)</c>
+              <c>Stephane Lepage</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>0.5</c>
+            </r>
+            <r>
+              <c>P - IESO MRP (BBCC23C047)</c>
+              <c>Martin Brodeur</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>1</c>
+              <c>2024</c>
+              <c>7.5</c>
+            </r>
+            <r>
+              <c>P - IESO MRP (BBCC23C047)</c>
+              <c>Martin Brodeur</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>2</c>
+              <c>2024</c>
+              <c>7.5</c>
+            </r>
+            <r>
+              <c>P - IESO MRP (BBCC23C047)</c>
+              <c>Patrick Toussaint</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>4</c>
+              <c>2024</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>P - IESO MRP (BBCC23C047)</c>
+              <c>Patrick Toussaint</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>P - IESO MRP (BBCC23C047)</c>
+              <c>Peace Isaac</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>1</c>
+              <c>2024</c>
+              <c>12.1</c>
+            </r>
+            <r>
+              <c>P - IESO MRP (BBCC23C047)</c>
+              <c>Peace Isaac</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>2</c>
+              <c>2024</c>
+              <c>12.9</c>
+            </r>
+            <r>
+              <c>P - IESO MRP (BBCC23C047)</c>
+              <c>Peace Isaac</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>3</c>
+              <c>2024</c>
+              <c>7.9</c>
+            </r>
+            <r>
+              <c>P - IESO MRP (BBCC23C047)</c>
+              <c>Peace Isaac</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>34.4</c>
+            </r>
+            <r>
+              <c>P - IESO MRP (BBCC23C047)</c>
+              <c>Peace Isaac</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>27.5</c>
+            </r>
+            <r>
+              <c>P - IESO MRP (BBCC23C047)</c>
+              <c>Peace Isaac</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>10.9</c>
+            </r>
+            <r>
+              <c>P - IESO MRP (BBCC23C047)</c>
+              <c>Surabhi Joshi</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c>QA / UAT</c>
+              <c>1</c>
+              <c>2024</c>
+              <c>20</c>
+            </r>
+            <r>
+              <c>P - IESO MRP (BBCC23C047)</c>
+              <c>Surabhi Joshi</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c>QA / UAT</c>
+              <c>2</c>
+              <c>2024</c>
+              <c>17</c>
+            </r>
+            <r>
+              <c>P - IESO MRP (BBCC23C047)</c>
+              <c>Surabhi Joshi</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c>QA / UAT</c>
+              <c>3</c>
+              <c>2024</c>
+              <c>12</c>
+            </r>
+            <r>
+              <c>P - IESO MRP (BBCC23C047)</c>
+              <c>Surabhi Joshi</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c>QA / UAT</c>
+              <c>10</c>
+              <c>2023</c>
+              <c>22</c>
+            </r>
+            <r>
+              <c>P - IESO MRP (BBCC23C047)</c>
+              <c>Surabhi Joshi</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c>QA / UAT</c>
+              <c>11</c>
+              <c>2023</c>
+              <c>20</c>
+            </r>
+            <r>
+              <c>P - IESO MRP (BBCC23C047)</c>
+              <c>Surabhi Joshi</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c>QA / UAT</c>
+              <c>12</c>
+              <c>2023</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>P - IESO MRP (BBCC23C047)</c>
+              <c>Surabhi Joshi</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c>Training</c>
+              <c>4</c>
+              <c>2024</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>P - integration platform ETRM (phase 2) (BBCC22071)</c>
+              <c>Animesh Wadikar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>37</c>
+            </r>
+            <r>
+              <c>P - integration platform ETRM (phase 2) (BBCC22071)</c>
+              <c>Animesh Wadikar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>35</c>
+            </r>
+            <r>
+              <c>P - integration platform ETRM (phase 2) (BBCC22071)</c>
+              <c>Animesh Wadikar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>P - integration platform ETRM (phase 2) (BBCC22071)</c>
+              <c><![CDATA[Kimi  Singh ]]></c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>1</c>
+              <c>2024</c>
+              <c>84</c>
+            </r>
+            <r>
+              <c>P - integration platform ETRM (phase 2) (BBCC22071)</c>
+              <c><![CDATA[Kimi  Singh ]]></c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>2</c>
+              <c>2024</c>
+              <c>84</c>
+            </r>
+            <r>
+              <c>P - integration platform ETRM (phase 2) (BBCC22071)</c>
+              <c><![CDATA[Kimi  Singh ]]></c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>3</c>
+              <c>2024</c>
+              <c>80</c>
+            </r>
+            <r>
+              <c>P - integration platform ETRM (phase 2) (BBCC22071)</c>
+              <c><![CDATA[Kimi  Singh ]]></c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>54</c>
+            </r>
+            <r>
+              <c>P - integration platform ETRM (phase 2) (BBCC22071)</c>
+              <c><![CDATA[Kimi  Singh ]]></c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>51</c>
+            </r>
+            <r>
+              <c>P - integration platform ETRM (phase 2) (BBCC22071)</c>
+              <c><![CDATA[Kimi  Singh ]]></c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>39</c>
+            </r>
+            <r>
+              <c>P - integration platform ETRM (phase 2) (BBCC22071)</c>
+              <c>Martin Plamondon</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>1</c>
+              <c>2024</c>
+              <c>57</c>
+            </r>
+            <r>
+              <c>P - integration platform ETRM (phase 2) (BBCC22071)</c>
+              <c>Martin Plamondon</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>2</c>
+              <c>2024</c>
+              <c>65</c>
+            </r>
+            <r>
+              <c>P - integration platform ETRM (phase 2) (BBCC22071)</c>
+              <c>Martin Plamondon</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>3</c>
+              <c>2024</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>P - integration platform ETRM (phase 2) (BBCC22071)</c>
+              <c>Martin Plamondon</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>96.5</c>
+            </r>
+            <r>
+              <c>P - integration platform ETRM (phase 2) (BBCC22071)</c>
+              <c>Martin Plamondon</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>74</c>
+            </r>
+            <r>
+              <c>P - integration platform ETRM (phase 2) (BBCC22071)</c>
+              <c>Martin Plamondon</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>57.5</c>
+            </r>
+            <r>
+              <c>P - IT Disaster Recovery Plan (BBCC23C045)</c>
+              <c>Gary Brown</c>
+              <c>Jason Franceschina</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>3</c>
+              <c>2024</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>P - IT Disaster Recovery Plan (BBCC23C045)</c>
+              <c>Hareesh Srikanthan</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>1</c>
+              <c>2024</c>
+              <c>40</c>
+            </r>
+            <r>
+              <c>P - IT Disaster Recovery Plan (BBCC23C045)</c>
+              <c>Hareesh Srikanthan</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>2</c>
+              <c>2024</c>
+              <c>40</c>
+            </r>
+            <r>
+              <c>P - IT Disaster Recovery Plan (BBCC23C045)</c>
+              <c>Hareesh Srikanthan</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>3</c>
+              <c>2024</c>
+              <c>27</c>
+            </r>
+            <r>
+              <c>P - IT Disaster Recovery Plan (BBCC23C045)</c>
+              <c>Hareesh Srikanthan</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>66</c>
+            </r>
+            <r>
+              <c>P - IT Disaster Recovery Plan (BBCC23C045)</c>
+              <c>Hareesh Srikanthan</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>66</c>
+            </r>
+            <r>
+              <c>P - IT Disaster Recovery Plan (BBCC23C045)</c>
+              <c>Hareesh Srikanthan</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>45</c>
+            </r>
+            <r>
+              <c>P - IT Disaster Recovery Plan (BBCC23C045)</c>
+              <c>Syed Shah</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>1</c>
+              <c>2024</c>
+              <c>26</c>
+            </r>
+            <r>
+              <c>P - IT Disaster Recovery Plan (BBCC23C045)</c>
+              <c>Syed Shah</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>2</c>
+              <c>2024</c>
+              <c>31.5</c>
+            </r>
+            <r>
+              <c>P - Enable MFA for Guests (BBCC23C034)</c>
+              <c>Diane Demirkan Yigiter</c>
+              <c>Jason Franceschina</c>
+              <c>BSG IT Operations - Portfolio</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>3.5</c>
+            </r>
+            <r>
+              <c>P - Enable MFA for Guests (BBCC23C034)</c>
+              <c>Gary Brown</c>
+              <c>Jason Franceschina</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>1</c>
+              <c>2024</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>P - Enable MFA for Guests (BBCC23C034)</c>
+              <c>Gary Brown</c>
+              <c>Jason Franceschina</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>2</c>
+              <c>2024</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>P - Enable MFA for Guests (BBCC23C034)</c>
+              <c>Gary Brown</c>
+              <c>Jason Franceschina</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>P - Enable MFA for Guests (BBCC23C034)</c>
+              <c>Gary Brown</c>
+              <c>Jason Franceschina</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>P - ESG RPA 2024 (BRPH22C075)</c>
+              <c>Arun Durisheti</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c>Analysis/Design</c>
+              <c>2</c>
+              <c>2024</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>P - ESG RPA 2024 (BRPH22C075)</c>
+              <c>Arun Durisheti</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c>Analysis/Design</c>
+              <c>3</c>
+              <c>2024</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>P - ESG RPA 2024 (BRPH22C075)</c>
+              <c>Arun Durisheti</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>3</c>
+              <c>2024</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>P - ESG RPA 2024 (BRPH22C075)</c>
+              <c>Jad  Bennis</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c>Development</c>
+              <c>3</c>
+              <c>2024</c>
+              <c>38.5</c>
+            </r>
+            <r>
+              <c>P - Evergreen (BBCC23C024)</c>
+              <c>Syed Shah</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>1</c>
+              <c>2024</c>
+              <c>36</c>
+            </r>
+            <r>
+              <c>P - Evergreen (BBCC23C024)</c>
+              <c>Syed Shah</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>2</c>
+              <c>2024</c>
+              <c>42</c>
+            </r>
+            <r>
+              <c>P - Evergreen (BBCC23C024)</c>
+              <c>Syed Shah</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>3</c>
+              <c>2024</c>
+              <c>32</c>
+            </r>
+            <r>
+              <c>P - Evergreen (BBCC23C024)</c>
+              <c>Syed Shah</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>46</c>
+            </r>
+            <r>
+              <c>P - Evergreen (BBCC23C024)</c>
+              <c>Syed Shah</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>44</c>
+            </r>
+            <r>
+              <c>P - Evergreen (BBCC23C024)</c>
+              <c>Syed Shah</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>22</c>
+            </r>
+            <r>
+              <c>P - Finance Data Analytics Self Service (BBCC23C033)</c>
+              <c>Martin Brodeur</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>2</c>
+              <c>2024</c>
+              <c>30</c>
+            </r>
+            <r>
+              <c>P - Finance Data Analytics Self Service (BBCC23C033)</c>
+              <c>Martin Brodeur</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>3</c>
+              <c>2024</c>
+              <c>7.5</c>
+            </r>
+            <r>
+              <c>P - Hollywood (Duke)</c>
+              <c>AJ Singh</c>
+              <c>Wade  Holmes</c>
+              <c>BSG IT Operations</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>P - Hollywood (Duke)</c>
+              <c>AJ Singh</c>
+              <c>Wade  Holmes</c>
+              <c>BSG IT Operations</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>1.85</c>
+            </r>
+            <r>
+              <c>P - Hollywood (Duke)</c>
+              <c>Ali Marandi</c>
+              <c>Angela Davis</c>
+              <c>BSG IT CyberSecurity</c>
+              <c>Analysis/Design</c>
+              <c>10</c>
+              <c>2023</c>
+              <c>110</c>
+            </r>
+            <r>
+              <c>P - Hollywood (Duke)</c>
+              <c>Ali Marandi</c>
+              <c>Angela Davis</c>
+              <c>BSG IT CyberSecurity</c>
+              <c>Analysis/Design</c>
+              <c>11</c>
+              <c>2023</c>
+              <c>110</c>
+            </r>
+            <r>
+              <c>P - Hollywood (Duke)</c>
+              <c>Ali Marandi</c>
+              <c>Angela Davis</c>
+              <c>BSG IT CyberSecurity</c>
+              <c>Analysis/Design</c>
+              <c>12</c>
+              <c>2023</c>
+              <c>80</c>
+            </r>
+            <r>
+              <c>P - Hollywood (Duke)</c>
+              <c>Ali Marandi</c>
+              <c>Angela Davis</c>
+              <c>BSG IT CyberSecurity</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>12</c>
+            </r>
+            <r>
+              <c>P - Hollywood (Duke)</c>
+              <c>Deborah Hoodspith</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>1</c>
+              <c>2024</c>
+              <c>10.5</c>
+            </r>
+            <r>
+              <c>P - Hollywood (Duke)</c>
+              <c>Deborah Hoodspith</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>2</c>
+              <c>2024</c>
+              <c>6.5</c>
+            </r>
+            <r>
+              <c>P - Hollywood (Duke)</c>
+              <c>Deborah Hoodspith</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>3</c>
+              <c>2024</c>
+              <c>13.5</c>
+            </r>
+            <r>
+              <c>P - Hollywood (Duke)</c>
+              <c>Deborah Hoodspith</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>22.5</c>
+            </r>
+            <r>
+              <c>P - Hollywood (Duke)</c>
+              <c>Deborah Hoodspith</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>86</c>
+            </r>
+            <r>
+              <c>P - Hollywood (Duke)</c>
+              <c>Deborah Hoodspith</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>102.5</c>
+            </r>
+            <r>
+              <c>P - Hollywood (Duke)</c>
+              <c>Everad Harrison</c>
+              <c>Angela Davis</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>P - Hollywood (Duke)</c>
+              <c>Everad Harrison</c>
+              <c>Angela Davis</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>9.3</c>
+            </r>
+            <r>
+              <c>P - Hollywood (Duke)</c>
+              <c>Gary Brown</c>
+              <c>Jason Franceschina</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>1</c>
+              <c>2024</c>
+              <c>141</c>
+            </r>
+            <r>
+              <c>P - Hollywood (Duke)</c>
+              <c>Gary Brown</c>
+              <c>Jason Franceschina</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>2</c>
+              <c>2024</c>
+              <c>58</c>
+            </r>
+            <r>
+              <c>P - Hollywood (Duke)</c>
+              <c>Gary Brown</c>
+              <c>Jason Franceschina</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>3</c>
+              <c>2024</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c>P - Hollywood (Duke)</c>
+              <c>Gary Brown</c>
+              <c>Jason Franceschina</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>62</c>
+            </r>
+            <r>
+              <c>P - Hollywood (Duke)</c>
+              <c>Gary Brown</c>
+              <c>Jason Franceschina</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>62</c>
+            </r>
+            <r>
+              <c>P - Hollywood (Duke)</c>
+              <c>Gary Brown</c>
+              <c>Jason Franceschina</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>85</c>
+            </r>
+            <r>
+              <c>P - Hollywood (Duke)</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c>Analysis/Design</c>
+              <c>1</c>
+              <c>2024</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c>P - Hollywood (Duke)</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c>Analysis/Design</c>
+              <c>2</c>
+              <c>2024</c>
+              <c>37</c>
+            </r>
+            <r>
+              <c>P - Hollywood (Duke)</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c>Analysis/Design</c>
+              <c>3</c>
+              <c>2024</c>
+              <c>34</c>
+            </r>
+            <r>
+              <c>P - Hollywood (Duke)</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c>Analysis/Design</c>
+              <c>10</c>
+              <c>2023</c>
+              <c>18</c>
+            </r>
+            <r>
+              <c>P - Hollywood (Duke)</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c>Analysis/Design</c>
+              <c>11</c>
+              <c>2023</c>
+              <c>54</c>
+            </r>
+            <r>
+              <c>P - Hollywood (Duke)</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c>Analysis/Design</c>
+              <c>12</c>
+              <c>2023</c>
+              <c>89</c>
+            </r>
+            <r>
+              <c>P - Hollywood (Duke)</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c>Development</c>
+              <c>1</c>
+              <c>2024</c>
+              <c>61</c>
+            </r>
+            <r>
+              <c>P - Hollywood (Duke)</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c>Development</c>
+              <c>2</c>
+              <c>2024</c>
+              <c>23</c>
+            </r>
+            <r>
+              <c>P - Hollywood (Duke)</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c>Development</c>
+              <c>3</c>
+              <c>2024</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>P - Hollywood (Duke)</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c>Development</c>
+              <c>10</c>
+              <c>2023</c>
+              <c>64</c>
+            </r>
+            <r>
+              <c>P - Hollywood (Duke)</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c>Development</c>
+              <c>11</c>
+              <c>2023</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>P - Hollywood (Duke)</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[General IT ]]></c>
+              <c>2</c>
+              <c>2024</c>
+              <c>20</c>
+            </r>
+            <r>
+              <c>P - Hollywood (Duke)</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[General IT ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>22</c>
+            </r>
+            <r>
+              <c>P - Hollywood (Duke)</c>
+              <c>Khaled Alanqar</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c>Analysis/Design</c>
+              <c>10</c>
+              <c>2023</c>
+              <c>11</c>
+            </r>
+            <r>
+              <c>P - Hollywood (Duke)</c>
+              <c>Khaled Alanqar</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c>Analysis/Design</c>
+              <c>11</c>
+              <c>2023</c>
+              <c>17</c>
+            </r>
+            <r>
+              <c>P - Hollywood (Duke)</c>
+              <c>Khaled Alanqar</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c>Analysis/Design</c>
+              <c>12</c>
+              <c>2023</c>
+              <c>23</c>
+            </r>
+            <r>
+              <c>P - Cognos BI replacement blueprint (BBCC23C032)</c>
+              <c>Nihan Catal</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Analysis/Design</c>
+              <c>2</c>
+              <c>2024</c>
+              <c>24</c>
+            </r>
+            <r>
+              <c>P - Cognos BI replacement blueprint (BBCC23C032)</c>
+              <c>Nihan Catal</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Analysis/Design</c>
+              <c>3</c>
+              <c>2024</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>P - Cognos BI replacement blueprint (BBCC23C032)</c>
+              <c>Nihan Catal</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Analysis/Design</c>
+              <c>12</c>
+              <c>2023</c>
+              <c>28</c>
+            </r>
+            <r>
+              <c>P - Consolidation &amp; Analysis of RMS Market Price Reports Analysis (BBCC23C029)</c>
+              <c>Martin Brodeur</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>1</c>
+              <c>2024</c>
+              <c>15</c>
+            </r>
+            <r>
+              <c>P - Consolidation &amp; Analysis of RMS Market Price Reports Analysis (BBCC23C029)</c>
+              <c>Martin Brodeur</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>2</c>
+              <c>2024</c>
+              <c>7.5</c>
+            </r>
+            <r>
+              <c>P - Consolidation &amp; Analysis of RMS Market Price Reports Analysis (BBCC23C029)</c>
+              <c>Martin Brodeur</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>3</c>
+              <c>2024</c>
+              <c>7.5</c>
+            </r>
+            <r>
+              <c>P - CoreServices (BBCC21R001)</c>
+              <c>Hareesh Srikanthan</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>2</c>
+              <c>2024</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>P - CoreServices (BBCC21R001)</c>
+              <c>Hareesh Srikanthan</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>3</c>
+              <c>2024</c>
+              <c>14</c>
+            </r>
+            <r>
+              <c>P - CoreServices (BBCC21R001)</c>
+              <c><![CDATA[Kimi  Singh ]]></c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>1</c>
+              <c>2024</c>
+              <c>31.5</c>
+            </r>
+            <r>
+              <c>P - CoreServices (BBCC21R001)</c>
+              <c><![CDATA[Kimi  Singh ]]></c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>2</c>
+              <c>2024</c>
+              <c>31.5</c>
+            </r>
+            <r>
+              <c>P - CoreServices (BBCC21R001)</c>
+              <c><![CDATA[Kimi  Singh ]]></c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>3</c>
+              <c>2024</c>
+              <c>30</c>
+            </r>
+            <r>
+              <c>P - CoreServices (BBCC21R001)</c>
+              <c><![CDATA[Kimi  Singh ]]></c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>27</c>
+            </r>
+            <r>
+              <c>P - CoreServices (BBCC21R001)</c>
+              <c><![CDATA[Kimi  Singh ]]></c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>25.5</c>
+            </r>
+            <r>
+              <c>P - CoreServices (BBCC21R001)</c>
+              <c><![CDATA[Kimi  Singh ]]></c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>19.5</c>
+            </r>
+            <r>
+              <c>P - Data Privacy (BBCC22C084)</c>
+              <c>Gary Brown</c>
+              <c>Jason Franceschina</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>1</c>
+              <c>2024</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>P - Data Privacy (BBCC22C084)</c>
+              <c>Gary Brown</c>
+              <c>Jason Franceschina</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>2</c>
+              <c>2024</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>P - Data Privacy (BBCC22C084)</c>
+              <c>Gary Brown</c>
+              <c>Jason Franceschina</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>3</c>
+              <c>2024</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>P - Data Privacy (BBCC22C084)</c>
+              <c>Gary Brown</c>
+              <c>Jason Franceschina</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>19</c>
+            </r>
+            <r>
+              <c>P - Data Privacy (BBCC22C084)</c>
+              <c>Gary Brown</c>
+              <c>Jason Franceschina</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>13</c>
+            </r>
+            <r>
+              <c>P - Data Privacy (BBCC22C084)</c>
+              <c>Gary Brown</c>
+              <c>Jason Franceschina</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>P - Desk Phones to Soft Phones (BBCC23C038)</c>
+              <c>Deborah Hoodspith</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>8.5</c>
+            </r>
+            <r>
+              <c>P - Desk Phones to Soft Phones (BBCC23C038)</c>
+              <c>Diane Demirkan Yigiter</c>
+              <c>Jason Franceschina</c>
+              <c>BSG IT Operations - Portfolio</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>1</c>
+              <c>2024</c>
+              <c>23</c>
+            </r>
+            <r>
+              <c>P - Desk Phones to Soft Phones (BBCC23C038)</c>
+              <c>Diane Demirkan Yigiter</c>
+              <c>Jason Franceschina</c>
+              <c>BSG IT Operations - Portfolio</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>2</c>
+              <c>2024</c>
+              <c>44</c>
+            </r>
+            <r>
+              <c>P - Desk Phones to Soft Phones (BBCC23C038)</c>
+              <c>Diane Demirkan Yigiter</c>
+              <c>Jason Franceschina</c>
+              <c>BSG IT Operations - Portfolio</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>3</c>
+              <c>2024</c>
+              <c>14</c>
+            </r>
+            <r>
+              <c>P - Desk Phones to Soft Phones (BBCC23C038)</c>
+              <c>Diane Demirkan Yigiter</c>
+              <c>Jason Franceschina</c>
+              <c>BSG IT Operations - Portfolio</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>12</c>
+            </r>
+            <r>
+              <c>P - Desk Phones to Soft Phones (BBCC23C038)</c>
+              <c>Diane Demirkan Yigiter</c>
+              <c>Jason Franceschina</c>
+              <c>BSG IT Operations - Portfolio</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>9.5</c>
+            </r>
+            <r>
+              <c>P - Desk Phones to Soft Phones (BBCC23C038)</c>
+              <c>Diane Demirkan Yigiter</c>
+              <c>Jason Franceschina</c>
+              <c>BSG IT Operations - Portfolio</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>P - Desk Phones to Soft Phones (BBCC23C038)</c>
+              <c>Gary Brown</c>
+              <c>Jason Franceschina</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>1</c>
+              <c>2024</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>P - Desk Phones to Soft Phones (BBCC23C038)</c>
+              <c>Gary Brown</c>
+              <c>Jason Franceschina</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>2</c>
+              <c>2024</c>
+              <c>15</c>
+            </r>
+            <r>
+              <c>P - Desk Phones to Soft Phones (BBCC23C038)</c>
+              <c>Gary Brown</c>
+              <c>Jason Franceschina</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>3</c>
+              <c>2024</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>P - Desk Phones to Soft Phones (BBCC23C038)</c>
+              <c>Gary Brown</c>
+              <c>Jason Franceschina</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>14</c>
+            </r>
+            <r>
+              <c>P - Desk Phones to Soft Phones (BBCC23C038)</c>
+              <c>Gary Brown</c>
+              <c>Jason Franceschina</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>18</c>
+            </r>
+            <r>
+              <c>P - Desk Phones to Soft Phones (BBCC23C038)</c>
+              <c>Gary Brown</c>
+              <c>Jason Franceschina</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>P - Desk Phones to Soft Phones (BBCC23C038)</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c>Analysis/Design</c>
+              <c>2</c>
+              <c>2024</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>P - Desk Phones to Soft Phones (BBCC23C038)</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c>Analysis/Design</c>
+              <c>10</c>
+              <c>2023</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>P - Desk Phones to Soft Phones (BBCC23C038)</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c>Analysis/Design</c>
+              <c>11</c>
+              <c>2023</c>
+              <c>20</c>
+            </r>
+            <r>
+              <c>P - Desk Phones to Soft Phones (BBCC23C038)</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c>Analysis/Design</c>
+              <c>12</c>
+              <c>2023</c>
+              <c>11</c>
+            </r>
+            <r>
+              <c>P - Desk Phones to Soft Phones (BBCC23C038)</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>1</c>
+              <c>2024</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>P - Desk Phones to Soft Phones (BBCC23C038)</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>2</c>
+              <c>2024</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>P - Desk Phones to Soft Phones (BBCC23C038)</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>P - Desk Phones to Soft Phones (BBCC23C038)</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c>Development</c>
+              <c>1</c>
+              <c>2024</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>P - Desk Phones to Soft Phones (BBCC23C038)</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c>Development</c>
+              <c>2</c>
+              <c>2024</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>P - Desk Phones to Soft Phones (BBCC23C038)</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[General IT ]]></c>
+              <c>2</c>
+              <c>2024</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>P - Desk Phones to Soft Phones (BBCC23C038)</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[General IT ]]></c>
+              <c>3</c>
+              <c>2024</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>P - Enable MFA for Guests (BBCC23C034)</c>
+              <c>Diane Demirkan Yigiter</c>
+              <c>Jason Franceschina</c>
+              <c>BSG IT Operations - Portfolio</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>1</c>
+              <c>2024</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>P - Enable MFA for Guests (BBCC23C034)</c>
+              <c>Diane Demirkan Yigiter</c>
+              <c>Jason Franceschina</c>
+              <c>BSG IT Operations - Portfolio</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>P - Software Asset Management (BBCC23C090)</c>
+              <c>Sylvain  Lacroix</c>
+              <c>Brian Rousse</c>
+              <c>BSG End User Services &amp; Compliance</c>
+              <c>Vendor Coordination</c>
+              <c>11</c>
+              <c>2023</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>P - Software Asset Management (BBCC23C090)</c>
+              <c>Troy Wilkinson</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c>Analysis/Design</c>
+              <c>10</c>
+              <c>2023</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>P - Software Asset Management (BBCC23C090)</c>
+              <c>Troy Wilkinson</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c>Analysis/Design</c>
+              <c>11</c>
+              <c>2023</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>P - Software Asset Management (BBCC23C090)</c>
+              <c>Troy Wilkinson</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c>Analysis/Design</c>
+              <c>12</c>
+              <c>2023</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>P - Windows 11 Upgrade (BBCC23C030)</c>
+              <c><![CDATA[Kimi  Singh ]]></c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>1</c>
+              <c>2024</c>
+              <c>42</c>
+            </r>
+            <r>
+              <c>P - Windows 11 Upgrade (BBCC23C030)</c>
+              <c><![CDATA[Kimi  Singh ]]></c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>2</c>
+              <c>2024</c>
+              <c>42</c>
+            </r>
+            <r>
+              <c>P - Windows 11 Upgrade (BBCC23C030)</c>
+              <c><![CDATA[Kimi  Singh ]]></c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>3</c>
+              <c>2024</c>
+              <c>40</c>
+            </r>
+            <r>
+              <c>P - Windows 11 Upgrade (BBCC23C030)</c>
+              <c><![CDATA[Kimi  Singh ]]></c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>54</c>
+            </r>
+            <r>
+              <c>P - Windows 11 Upgrade (BBCC23C030)</c>
+              <c><![CDATA[Kimi  Singh ]]></c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>51</c>
+            </r>
+            <r>
+              <c>P - Windows 11 Upgrade (BBCC23C030)</c>
+              <c><![CDATA[Kimi  Singh ]]></c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>39</c>
+            </r>
+            <r>
+              <c>P - Windows 11 Upgrade (BBCC23C030)</c>
+              <c>Mike Brunet</c>
+              <c>Brian Rousse</c>
+              <c>BSG End User Services &amp; Compliance</c>
+              <c>QA / UAT</c>
+              <c>10</c>
+              <c>2023</c>
+              <c>56</c>
+            </r>
+            <r>
+              <c>P - Windows 11 Upgrade (BBCC23C030)</c>
+              <c>Mike Brunet</c>
+              <c>Brian Rousse</c>
+              <c>BSG End User Services &amp; Compliance</c>
+              <c>QA / UAT</c>
+              <c>11</c>
+              <c>2023</c>
+              <c>25</c>
+            </r>
+            <r>
+              <c>P - Windows 11 Upgrade (BBCC23C030)</c>
+              <c>Mike Brunet</c>
+              <c>Brian Rousse</c>
+              <c>BSG End User Services &amp; Compliance</c>
+              <c>QA / UAT</c>
+              <c>12</c>
+              <c>2023</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>S  Intake Process</c>
+              <c>Jason Franceschina</c>
+              <c>Angela Davis</c>
+              <c><![CDATA[ BSG IT infrastructure ]]></c>
+              <c><![CDATA[General IT ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>S - ITGC Quarterly process</c>
+              <c>Daniel Languedoc</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>3.5</c>
+            </r>
+            <r>
+              <c>S - ITGC Quarterly process</c>
+              <c>Daniel Languedoc</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>S - ITGC Quarterly process</c>
+              <c>Daniel Languedoc</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>S - ITGC Quarterly process</c>
+              <c>Nihan Catal</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Analysis/Design</c>
+              <c>12</c>
+              <c>2023</c>
+              <c>0.5</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Animesh Wadikar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>1</c>
+              <c>2024</c>
+              <c>135</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Animesh Wadikar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>2</c>
+              <c>2024</c>
+              <c>157.5</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Animesh Wadikar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>3</c>
+              <c>2024</c>
+              <c>7.5</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Animesh Wadikar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>118.5</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Animesh Wadikar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>92.5</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Animesh Wadikar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>47.5</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Arun Durisheti</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>1</c>
+              <c>2024</c>
+              <c>154.5</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Arun Durisheti</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>2</c>
+              <c>2024</c>
+              <c>85</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Arun Durisheti</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>156</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Arun Durisheti</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>148</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Arun Durisheti</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>89.5</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Daniel Languedoc</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>58</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Daniel Languedoc</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>50</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Daniel Languedoc</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>28</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Analysis/Design</c>
+              <c>2</c>
+              <c>2024</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Analysis/Design</c>
+              <c>3</c>
+              <c>2024</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Analysis/Design</c>
+              <c>4</c>
+              <c>2024</c>
+              <c>1.5</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Analysis/Design</c>
+              <c>10</c>
+              <c>2023</c>
+              <c>15</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Analysis/Design</c>
+              <c>11</c>
+              <c>2023</c>
+              <c>1.5</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>1</c>
+              <c>2024</c>
+              <c>21</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>2</c>
+              <c>2024</c>
+              <c>22</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>3</c>
+              <c>2024</c>
+              <c>14</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>4</c>
+              <c>2024</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>23.5</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>22</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>19</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Development</c>
+              <c>10</c>
+              <c>2023</c>
+              <c>15</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>1</c>
+              <c>2024</c>
+              <c>31.5</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>2</c>
+              <c>2024</c>
+              <c>27</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>3</c>
+              <c>2024</c>
+              <c>22.5</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>4</c>
+              <c>2024</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>56</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>86.5</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>64</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>POC</c>
+              <c>1</c>
+              <c>2024</c>
+              <c>18</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>POC</c>
+              <c>2</c>
+              <c>2024</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Training</c>
+              <c>2</c>
+              <c>2024</c>
+              <c>1.5</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Training</c>
+              <c>10</c>
+              <c>2023</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Training</c>
+              <c>11</c>
+              <c>2023</c>
+              <c>12.5</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Training</c>
+              <c>12</c>
+              <c>2023</c>
+              <c>5.5</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Harsh Tomar</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Vendor Coordination</c>
+              <c>2</c>
+              <c>2024</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Ivan Quadros</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Analysis/Design</c>
+              <c>1</c>
+              <c>2024</c>
+              <c>101.25</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Ivan Quadros</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Analysis/Design</c>
+              <c>2</c>
+              <c>2024</c>
+              <c>123.75</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Ivan Quadros</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Analysis/Design</c>
+              <c>3</c>
+              <c>2024</c>
+              <c>56.25</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Ivan Quadros</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>1</c>
+              <c>2024</c>
+              <c>11.25</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Jad  Bennis</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c>Analysis/Design</c>
+              <c>1</c>
+              <c>2024</c>
+              <c>70</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Jad  Bennis</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c>Analysis/Design</c>
+              <c>2</c>
+              <c>2024</c>
+              <c>82</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Jad  Bennis</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c>Analysis/Design</c>
+              <c>3</c>
+              <c>2024</c>
+              <c>36</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Jad  Bennis</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c>Analysis/Design</c>
+              <c>12</c>
+              <c>2023</c>
+              <c>10.5</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Jad  Bennis</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>63.5</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Jad  Bennis</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c>Development</c>
+              <c>1</c>
+              <c>2024</c>
+              <c>58</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Jad  Bennis</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c>Development</c>
+              <c>2</c>
+              <c>2024</c>
+              <c>46.5</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Jad  Bennis</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c>Development</c>
+              <c>10</c>
+              <c>2023</c>
+              <c>105</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Jad  Bennis</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c>Development</c>
+              <c>11</c>
+              <c>2023</c>
+              <c>156</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Jad  Bennis</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c>Development</c>
+              <c>12</c>
+              <c>2023</c>
+              <c>41.5</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Martin Brodeur</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>1</c>
+              <c>2024</c>
+              <c>22.5</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Martin Brodeur</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>2</c>
+              <c>2024</c>
+              <c>37.5</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Martin Brodeur</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>3</c>
+              <c>2024</c>
+              <c>37.5</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Martin Plamondon</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>44.5</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Martin Plamondon</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>44.5</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Martin Plamondon</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>34</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Narender Gayam</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c>Analysis/Design</c>
+              <c>10</c>
+              <c>2023</c>
+              <c>29.2</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Narender Gayam</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>14.6</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Narender Gayam</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>51.1</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Narender Gayam</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>7.3</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Narender Gayam</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c>Development</c>
+              <c>10</c>
+              <c>2023</c>
+              <c>73</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Narender Gayam</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c>Development</c>
+              <c>12</c>
+              <c>2023</c>
+              <c>36.5</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Narender Gayam</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>29.2</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Narender Gayam</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>109.5</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Narender Gayam</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>36.5</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Nihan Catal</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>21</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Nihan Catal</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>69.5</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Nihan Catal</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>23.5</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Nihan Catal</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>52.5</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Patrick Toussaint</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>1</c>
+              <c>2024</c>
+              <c>7.5</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Patrick Toussaint</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>2</c>
+              <c>2024</c>
+              <c>9.5</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Patrick Toussaint</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>3</c>
+              <c>2024</c>
+              <c>24.5</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Patrick Toussaint</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>7.5</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Patrick Toussaint</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Patrick Toussaint</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c>Training</c>
+              <c>11</c>
+              <c>2023</c>
+              <c>30</c>
+            </r>
+            <r>
+              <c>S - Support Day to Day (BSG)</c>
+              <c>Patrick Toussaint</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c>Training</c>
+              <c>12</c>
+              <c>2023</c>
+              <c>7.5</c>
+            </r>
+            <r>
+              <c>S  Support Day to Day CA</c>
+              <c>Daniel Languedoc</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>54.5</c>
+            </r>
+            <r>
+              <c>S  Support Day to Day CA</c>
+              <c>Daniel Languedoc</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>40</c>
+            </r>
+            <r>
+              <c>S  Support Day to Day CA</c>
+              <c>Daniel Languedoc</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>18</c>
+            </r>
+            <r>
+              <c>S  Support Day to Day CA</c>
+              <c>Martin Brodeur</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>1</c>
+              <c>2024</c>
+              <c>7.5</c>
+            </r>
+            <r>
+              <c>S  Support Day to Day CA</c>
+              <c>Martin Plamondon</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>S  Support Day to Day CA</c>
+              <c>Martin Plamondon</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>S  Support Day to Day CA</c>
+              <c>Martin Plamondon</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>S  Support Day to Day CA</c>
+              <c>Nihan Catal</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Analysis/Design</c>
+              <c>2</c>
+              <c>2024</c>
+              <c>1.5</c>
+            </r>
+            <r>
+              <c>S  Support Day to Day CA</c>
+              <c>Nihan Catal</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Analysis/Design</c>
+              <c>3</c>
+              <c>2024</c>
+              <c>5.5</c>
+            </r>
+            <r>
+              <c>S  Support Day to Day CA</c>
+              <c>Patrick Toussaint</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>1</c>
+              <c>2024</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>S  Support Day to Day CA</c>
+              <c>Patrick Toussaint</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>2</c>
+              <c>2024</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>S  Support Day to Day CA</c>
+              <c>Patrick Toussaint</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>S  Support Day to Day CA</c>
+              <c>Patrick Toussaint</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>S  Support Day to Day US</c>
+              <c>Daniel Languedoc</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>41.5</c>
+            </r>
+            <r>
+              <c>S  Support Day to Day US</c>
+              <c>Daniel Languedoc</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>36.5</c>
+            </r>
+            <r>
+              <c>S  Support Day to Day US</c>
+              <c>Daniel Languedoc</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>19.5</c>
+            </r>
+            <r>
+              <c>S  Support Day to Day US</c>
+              <c>Martin Brodeur</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>1</c>
+              <c>2024</c>
+              <c>7.5</c>
+            </r>
+            <r>
+              <c>S  Support Day to Day US</c>
+              <c>Nihan Catal</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Analysis/Design</c>
+              <c>1</c>
+              <c>2024</c>
+              <c>5.5</c>
+            </r>
+            <r>
+              <c>S  Support Day to Day US</c>
+              <c>Nihan Catal</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Analysis/Design</c>
+              <c>2</c>
+              <c>2024</c>
+              <c>14.5</c>
+            </r>
+            <r>
+              <c>S  Support Day to Day US</c>
+              <c>Nihan Catal</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Analysis/Design</c>
+              <c>3</c>
+              <c>2024</c>
+              <c>1.5</c>
+            </r>
+            <r>
+              <c>S  Support Day to Day US</c>
+              <c>Nihan Catal</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Analysis/Design</c>
+              <c>10</c>
+              <c>2023</c>
+              <c>31.5</c>
+            </r>
+            <r>
+              <c>S  Support Day to Day US</c>
+              <c>Nihan Catal</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Analysis/Design</c>
+              <c>11</c>
+              <c>2023</c>
+              <c>42</c>
+            </r>
+            <r>
+              <c>S  Support Day to Day US</c>
+              <c>Nihan Catal</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Analysis/Design</c>
+              <c>12</c>
+              <c>2023</c>
+              <c>9.5</c>
+            </r>
+            <r>
+              <c>S  Support Day to Day US</c>
+              <c>Nihan Catal</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>30.5</c>
+            </r>
+            <r>
+              <c>S  Support Day to Day US</c>
+              <c>Nihan Catal</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>18</c>
+            </r>
+            <r>
+              <c>S  Support Day to Day US</c>
+              <c>Patrick Toussaint</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>1</c>
+              <c>2024</c>
+              <c>86</c>
+            </r>
+            <r>
+              <c>S  Support Day to Day US</c>
+              <c>Patrick Toussaint</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>2</c>
+              <c>2024</c>
+              <c>147</c>
+            </r>
+            <r>
+              <c>S  Support Day to Day US</c>
+              <c>Patrick Toussaint</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>3</c>
+              <c>2024</c>
+              <c>49.5</c>
+            </r>
+            <r>
+              <c>S  Support Day to Day US</c>
+              <c>Patrick Toussaint</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>157.5</c>
+            </r>
+            <r>
+              <c>S  Support Day to Day US</c>
+              <c>Patrick Toussaint</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>119</c>
+            </r>
+            <r>
+              <c>S  Support Day to Day US</c>
+              <c>Patrick Toussaint</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>119.25</c>
+            </r>
+            <r>
+              <c>S  Support Day to Day US</c>
+              <c>Stephane Lepage</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>52</c>
+            </r>
+            <r>
+              <c>S  Support Day to Day US</c>
+              <c>Stephane Lepage</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>126</c>
+            </r>
+            <r>
+              <c>S  Support Day to Day US</c>
+              <c>Stephane Lepage</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>82</c>
+            </r>
+            <r>
+              <c>P  RPA - Luminace -Form 556 PDF Automation (BB2022B012)</c>
+              <c>Arun Durisheti</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c>Analysis/Design</c>
+              <c>2</c>
+              <c>2024</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>P  RPA - Luminace -Form 556 PDF Automation (BB2022B012)</c>
+              <c>Arun Durisheti</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c>Analysis/Design</c>
+              <c>3</c>
+              <c>2024</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>P  RPA - Luminace -Form 556 PDF Automation (BB2022B012)</c>
+              <c>Arun Durisheti</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c>Analysis/Design</c>
+              <c>11</c>
+              <c>2023</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>P  RPA - Luminace -Form 556 PDF Automation (BB2022B012)</c>
+              <c>Jad  Bennis</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c>Analysis/Design</c>
+              <c>2</c>
+              <c>2024</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>P  RPA - Luminace -Form 556 PDF Automation (BB2022B012)</c>
+              <c>Jad  Bennis</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c>Development</c>
+              <c>1</c>
+              <c>2024</c>
+              <c>27.5</c>
+            </r>
+            <r>
+              <c>P  RPA - Luminace -Form 556 PDF Automation (BB2022B012)</c>
+              <c>Jad  Bennis</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c>Development</c>
+              <c>3</c>
+              <c>2024</c>
+              <c>12</c>
+            </r>
+            <r>
+              <c>P  RPA - Luminace -Form 556 PDF Automation (BB2022B012)</c>
+              <c>Jad  Bennis</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c>Development</c>
+              <c>12</c>
+              <c>2023</c>
+              <c>11.5</c>
+            </r>
+            <r>
+              <c>P  RPA - Luminace -Form 556 PDF Automation (BB2022B012)</c>
+              <c>Jad  Bennis</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c>QA / UAT</c>
+              <c>1</c>
+              <c>2024</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>P  RPA - Luminace -Form 556 PDF Automation (BB2022B012)</c>
+              <c>Jad  Bennis</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c>QA / UAT</c>
+              <c>2</c>
+              <c>2024</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>P  RPA - Luminace -Form 556 PDF Automation (BB2022B012)</c>
+              <c>Jad  Bennis</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c>QA / UAT</c>
+              <c>3</c>
+              <c>2024</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>P - Server Consolidation (BBCC21C007)</c>
+              <c>Martin Brodeur</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>1</c>
+              <c>2024</c>
+              <c>22.5</c>
+            </r>
+            <r>
+              <c>P - Server Consolidation (BBCC21C007)</c>
+              <c>Martin Brodeur</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>2</c>
+              <c>2024</c>
+              <c>15</c>
+            </r>
+            <r>
+              <c>P - Server Consolidation (BBCC21C007)</c>
+              <c>Martin Brodeur</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>3</c>
+              <c>2024</c>
+              <c>22.5</c>
+            </r>
+            <r>
+              <c>P - Server Consolidation (BBCC21C007)</c>
+              <c>Martin Plamondon</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>1</c>
+              <c>2024</c>
+              <c>22</c>
+            </r>
+            <r>
+              <c>P - Server Consolidation (BBCC21C007)</c>
+              <c>Martin Plamondon</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>2</c>
+              <c>2024</c>
+              <c>25</c>
+            </r>
+            <r>
+              <c>P - Server Consolidation (BBCC21C007)</c>
+              <c>Martin Plamondon</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>3</c>
+              <c>2024</c>
+              <c>50</c>
+            </r>
+            <r>
+              <c>P - Server Consolidation (BBCC21C007)</c>
+              <c>Patrick Toussaint</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>3</c>
+              <c>2024</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>P - Server Consolidation (BBCC21C007)</c>
+              <c>Peace Isaac</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>1</c>
+              <c>2024</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>P - Server Consolidation (BBCC21C007)</c>
+              <c>Peace Isaac</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>2</c>
+              <c>2024</c>
+              <c>8.9</c>
+            </r>
+            <r>
+              <c>P - Server Consolidation (BBCC21C007)</c>
+              <c>Peace Isaac</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>3</c>
+              <c>2024</c>
+              <c>3.6</c>
+            </r>
+            <r>
+              <c>P - Server Consolidation (BBCC21C007)</c>
+              <c>Peace Isaac</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c>P - Server Consolidation (BBCC21C007)</c>
+              <c>Peace Isaac</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>6.3</c>
+            </r>
+            <r>
+              <c>P - Server Consolidation (BBCC21C007)</c>
+              <c>Peace Isaac</c>
+              <c>Everad Harrison</c>
+              <c>BSG Business Application Solution</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>1.25</c>
+            </r>
+            <r>
+              <c>P - Servers including OS Upgrade (BBCC23C025)</c>
+              <c>Syed Shah</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>1</c>
+              <c>2024</c>
+              <c>19</c>
+            </r>
+            <r>
+              <c>P - Servers including OS Upgrade (BBCC23C025)</c>
+              <c>Syed Shah</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>2</c>
+              <c>2024</c>
+              <c>11.5</c>
+            </r>
+            <r>
+              <c>P - Servers including OS Upgrade (BBCC23C025)</c>
+              <c>Syed Shah</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>3</c>
+              <c>2024</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>P - Servers including OS Upgrade (BBCC23C025)</c>
+              <c>Syed Shah</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>10</c>
+              <c>2023</c>
+              <c>33</c>
+            </r>
+            <r>
+              <c>P - Servers including OS Upgrade (BBCC23C025)</c>
+              <c>Syed Shah</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>11</c>
+              <c>2023</c>
+              <c>33</c>
+            </r>
+            <r>
+              <c>P - Servers including OS Upgrade (BBCC23C025)</c>
+              <c>Syed Shah</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c><![CDATA[General IT ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>16.5</c>
+            </r>
+            <r>
+              <c>P - ServiceNow Enhancements (BBCC23C026)</c>
+              <c>Troy Wilkinson</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c>Analysis/Design</c>
+              <c>10</c>
+              <c>2023</c>
+              <c>109</c>
+            </r>
+            <r>
+              <c>P - ServiceNow Enhancements (BBCC23C026)</c>
+              <c>Troy Wilkinson</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c>Analysis/Design</c>
+              <c>11</c>
+              <c>2023</c>
+              <c>129</c>
+            </r>
+            <r>
+              <c>P - ServiceNow Enhancements (BBCC23C026)</c>
+              <c>Troy Wilkinson</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Integrated Solutions</c>
+              <c>Analysis/Design</c>
+              <c>12</c>
+              <c>2023</c>
+              <c>96</c>
+            </r>
+            <r>
+              <c>P - ServiceNow Enhancements 2024 (BBCC24C028)</c>
+              <c>Diane Demirkan Yigiter</c>
+              <c>Jason Franceschina</c>
+              <c>BSG IT Operations - Portfolio</c>
+              <c>Analysis/Design</c>
+              <c>3</c>
+              <c>2024</c>
+              <c>14</c>
+            </r>
+            <r>
+              <c>P - ServiceNow Enhancements 2024 (BBCC24C028)</c>
+              <c>Diane Demirkan Yigiter</c>
+              <c>Jason Franceschina</c>
+              <c>BSG IT Operations - Portfolio</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>3</c>
+              <c>2024</c>
+              <c>5.5</c>
+            </r>
+            <r>
+              <c>P - SharePoint Features implementation (BBCC23C085)</c>
+              <c>Monica Mobashera</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Analysis/Design</c>
+              <c>2</c>
+              <c>2024</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>P - SharePoint Features implementation (BBCC23C085)</c>
+              <c>Monica Mobashera</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Analysis/Design</c>
+              <c>3</c>
+              <c>2024</c>
+              <c>12.2</c>
+            </r>
+            <r>
+              <c>P - SharePoint Features implementation (BBCC23C085)</c>
+              <c>Monica Mobashera</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Development</c>
+              <c>1</c>
+              <c>2024</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>P - SharePoint Features implementation (BBCC23C085)</c>
+              <c>Monica Mobashera</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Development</c>
+              <c>2</c>
+              <c>2024</c>
+              <c>58.7</c>
+            </r>
+            <r>
+              <c>P - SharePoint Features implementation (BBCC23C085)</c>
+              <c>Monica Mobashera</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Development</c>
+              <c>3</c>
+              <c>2024</c>
+              <c>29.3</c>
+            </r>
+            <r>
+              <c>P - SharePoint Features implementation (BBCC23C085)</c>
+              <c>Monica Mobashera</c>
+              <c>Clara Hatem</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Training</c>
+              <c>1</c>
+              <c>2024</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>P - SharePoint Features implementation (BBCC23C085)</c>
+              <c>Nihan Catal</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Analysis/Design</c>
+              <c>1</c>
+              <c>2024</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>P - SharePoint Features implementation (BBCC23C085)</c>
+              <c>Nihan Catal</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Analysis/Design</c>
+              <c>2</c>
+              <c>2024</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>P - SharePoint Features implementation (BBCC23C085)</c>
+              <c>Nihan Catal</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c>Analysis/Design</c>
+              <c>3</c>
+              <c>2024</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>P - SharePoint Features implementation (BBCC23C085)</c>
+              <c>Nihan Catal</c>
+              <c>Éléna Roger-Roy</c>
+              <c>BSG IT Digital Insights</c>
+              <c><![CDATA[Daily Tracking & Updating ]]></c>
+              <c>12</c>
+              <c>2023</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>P - Software Asset Management (BBCC23C090)</c>
+              <c>Sylvain  Lacroix</c>
+              <c>Brian Rousse</c>
+              <c>BSG End User Services &amp; Compliance</c>
+              <c>Vendor Coordination</c>
+              <c>10</c>
+              <c>2023</c>
+              <c>3</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="30" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" FileFormat="18">odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=DataSandbox;Data Source=dataportal-sa;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=YND01-LP-1321|||dbo.OfficeTimerHours</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>False</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Source=dataportal-sa
+Catalog=DataSandbox
+Query=dbo.OfficeTimerHours</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ProjectName" size="300" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=DataSandbox;Data Source=dataportal-sa;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=YND01-LP-1321|||dbo.OfficeTimerHours" type="V_String" />
+            <Field name="EmployeeName" size="200" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=DataSandbox;Data Source=dataportal-sa;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=YND01-LP-1321|||dbo.OfficeTimerHours" type="V_String" />
+            <Field name="EmployeeManager" size="200" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=DataSandbox;Data Source=dataportal-sa;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=YND01-LP-1321|||dbo.OfficeTimerHours" type="V_String" />
+            <Field name="DepartmentName" size="200" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=DataSandbox;Data Source=dataportal-sa;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=YND01-LP-1321|||dbo.OfficeTimerHours" type="V_String" />
+            <Field name="TaskName" size="100" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=DataSandbox;Data Source=dataportal-sa;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=YND01-LP-1321|||dbo.OfficeTimerHours" type="V_String" />
+            <Field name="MonthNo" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=DataSandbox;Data Source=dataportal-sa;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=YND01-LP-1321|||dbo.OfficeTimerHours" type="Byte" />
+            <Field name="Year" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=DataSandbox;Data Source=dataportal-sa;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=YND01-LP-1321|||dbo.OfficeTimerHours" type="Int16" />
+            <Field name="TotalTimesheetHours" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=DataSandbox;Data Source=dataportal-sa;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=YND01-LP-1321|||dbo.OfficeTimerHours" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="222" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="ProjectName" />
+            <Field field="EmployeeName" />
+            <Field field="TaskName" />
+            <Field field="Year" />
+            <Field field="MonthNo" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="ProjectName" />
+            <Field field="EmployeeName" />
+            <Field field="TaskName" />
+            <Field field="Year" />
+            <Field field="MonthNo" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_ProjectName" selected="False" rename="Right_ProjectName" input="Right_" />
+                <SelectField field="Right_EmployeeName" selected="False" rename="Right_EmployeeName" input="Right_" />
+                <SelectField field="Right_EmployeeManager" selected="False" rename="Right_EmployeeManager" input="Right_" />
+                <SelectField field="Right_DepartmentName" selected="False" rename="Right_DepartmentName" input="Right_" />
+                <SelectField field="Right_TaskName" selected="False" rename="Right_TaskName" input="Right_" />
+                <SelectField field="Right_MonthNo" selected="False" rename="Right_MonthNo" input="Right_" />
+                <SelectField field="Right_Year" selected="False" rename="Right_Year" input="Right_" />
+                <SelectField field="Right_TotalTimesheetHours" selected="True" rename="New_TotalTimesheetHours" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="378" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[TotalTimesheetHours]!=[New_TotalTimesheetHours]</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[TotalTimesheetHours]!=[New_TotalTimesheetHours]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+        <Position x="150" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RenameMode>Formula</RenameMode>
+          <Fields orderChanged="False">
+            <Field name="Project Name" />
+            <Field name="Employee Name" />
+            <Field name="EmployeeManager" />
+            <Field name="Department Name" />
+            <Field name="Task Name" />
+            <Field name="MonthNo" />
+            <Field name="Year" />
+            <Field name="Total Timesheet Hours Total" />
+            <Field name="*Unknown" />
+          </Fields>
+          <Expression>Replace([_CurrentField_]," ","")</Expression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ProjectName" size="255" source="File: C:\Users\saraabdu\Downloads\Datasets.xlsx|||`OfficeTimer$`" type="V_WString" />
+            <Field name="EmployeeName" size="255" source="File: C:\Users\saraabdu\Downloads\Datasets.xlsx|||`OfficeTimer$`" type="V_String" />
+            <Field name="EmployeeManager" size="255" source="File: C:\Users\saraabdu\Downloads\Datasets.xlsx|||`OfficeTimer$`" type="V_String" />
+            <Field name="DepartmentName" size="255" source="File: C:\Users\saraabdu\Downloads\Datasets.xlsx|||`OfficeTimer$`" type="V_String" />
+            <Field name="TaskName" size="255" source="File: C:\Users\saraabdu\Downloads\Datasets.xlsx|||`OfficeTimer$`" type="V_String" />
+            <Field name="MonthNo" source="File: C:\Users\saraabdu\Downloads\Datasets.xlsx|||`OfficeTimer$`" type="Double" />
+            <Field name="Year" source="File: C:\Users\saraabdu\Downloads\Datasets.xlsx|||`OfficeTimer$`" type="Double" />
+            <Field name="TotalTimesheetHoursTotal" source="File: C:\Users\saraabdu\Downloads\Datasets.xlsx|||`OfficeTimer$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="270" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="MonthNo" selected="True" type="Int32" size="4" />
+            <SelectField field="Year" selected="True" type="Int32" size="4" />
+            <SelectField field="TotalTimesheetHoursTotal" selected="True" rename="TotalTimesheetHours" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="510" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="TotalTimesheetHours" selected="False" />
+            <SelectField field="New_TotalTimesheetHours" selected="True" rename="TotalTimesheetHours" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="665" y="17" width="154" height="381" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 18</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="690" y="66" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="18">odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=DataSandbox;Data Source=dataportal-sa;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=YND01-LP-1321|||dbo.OfficeTimerHours</File>
+              <Passwords />
+              <Disable>False</Disable>
+              <FormatSpecificOptions>
+                <TransactionSize>0</TransactionSize>
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <PostSQL />
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL />
+                <TransactionMessages>False</TransactionMessages>
+                <OutputOption>Upsert</OutputOption>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Source=dataportal-sa
+Catalog=DataSandbox
+Query=dbo.OfficeTimerHours</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="690" y="222" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="18">odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=DataSandbox;Data Source=dataportal-sa;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=YND01-LP-1321|||dbo.OfficeTimerHours</File>
+              <Passwords />
+              <Disable>False</Disable>
+              <FormatSpecificOptions>
+                <TransactionSize>0</TransactionSize>
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <PostSQL />
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL />
+                <TransactionMessages>False</TransactionMessages>
+                <OutputOption>Append</OutputOption>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Source=dataportal-sa
+Catalog=DataSandbox
+Query=dbo.OfficeTimerHours</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="15" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="11" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Join" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Right" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="True" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>OfficeTimer_workflow</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="c950c8d6-e031-47c0-80e1-e3907870607d" />
+      <Telemetry>
+        <PreviousWorkflowId value="48061fdf-b77e-421a-af28-23a22cb4d7d6" />
+        <OriginWorkflowId value="48061fdf-b77e-421a-af28-23a22cb4d7d6" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
